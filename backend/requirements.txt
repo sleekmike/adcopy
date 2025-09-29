@@ -1,0 +1,20 @@
+# Core FastAPI and ASGI
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# Database (MongoDB) - Simplified without Beanie
+pymongo==4.6.0
+
+# HTTP Client for AI API calls
+httpx==0.25.2
+
+# Environment variables
+python-decouple==3.8
+
+# Production server (optional)
+gunicorn==21.2.0
+
+# Development tools (optional)
+python-multipart==0.0.6
